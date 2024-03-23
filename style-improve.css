@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Mako&display=swap');
+
+html {
+    background-color: #f5f5f5;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Mako", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #FF3399;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    width: auto;
+    cursor: pointer;
+    margin: 8px 14px;
+    padding: 16px 20px;
+}
+
+.nav-bar-items {
+   list-style: none;
+   display: flex;
+}
+
+.nav-bar li {
+    padding: 18px 16px;
+    margin-right: 16px;
+}
+
+.nav-bar-items li a {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    padding: 0px 32px;
+}
+
+#profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 140px;
+    margin: 0 1.5%;
+}
+
+a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+#profile-picture {
+    height: 380px;
+    object-fit: cover;
+}
+
+.title-1 {
+    margin: 0px 0px;
+    font-size: 2,5em;
+    font-weight: 900;
+    color: #570d57;
+}
+
+.subtitle {
+    font-size: 1.25em;
+    line-height: 1,4;
+    margin: 24px 0;
+    color: #663366;
+    text-align: justify;
+}
+
+#bio {
+    margin-left: 96px;
+}
+
+.social-media-container a{
+    margin-right: 16px;
+}
+
+.social-media-container a img {
+    height: 50px;
+}
+
+hr {
+    margin: 35px 1,5%;
+}
+
+.title-2 {
+    color: #570d57;
+    font-weight: 300;
+    text-align: center;
+}
+
+.portofolio-picture {
+    height: 215px;
+    width: 40%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.portofolio-card {
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 1.5%;
+    background-color: #f5f5f5; 
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px 0px grey;
+}
+
+.portofolio-card div {
+    color: #663366;
+    width: 60%;
+    margin-left: 16px;
+    margin-right: 16px; 
+}
+
+.portofolio-card div p a {
+    color: #663366;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 16px;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+
+.skill-card {
+    flex: 0 1 22%;
+    background-color: #f5f5f5;
+    margin: 16px 1.5%; 
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px 0px grey;
+}
+
+.skill-picture {
+    height: auto;
+    width: 100%;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.title-4 {
+    padding-top: 130px;
+    padding-bottom: -120px;
+    color: #570d57;
+    font-weight: 300;
+    text-align: center;
+}
+
+.skill-title {
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 500;
+    color: #663366;
+}
